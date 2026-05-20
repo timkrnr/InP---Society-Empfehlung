@@ -1,0 +1,130 @@
+.jetbrains-mono-font {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.recoleta-font{
+    font-family: 'Recoleta', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;                                          
+}
+
+body{
+    background-color: #f7f8f4;
+    font-family: "JetBrains Mono", monospace;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 60vw;
+    max-width: 90vw;
+    background-color: white;
+    padding: 35px 40px;
+    margin: auto;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    align-items:flex-end;
+}
+
+.comic img{
+    width: 13rem;
+    height: 20.8rem;
+    box-shadow: 0 0 10px black;
+
+}
+
+.comic{
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rezension{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.mitglied-info{
+    flex: 2;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+.mitglied-info img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.mitglied-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    letter-spacing: normal;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.name{
+    font-family: "Recoleta", sans-serif;
+    font-size: 2rem;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.rolle{
+    font-family: "Recoleta", sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+h2{
+    font-family: "Recoleta", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 9px 18px;
+    text-decoration: none;
+    border-color: black;
+    border-width: 3px;
+    border: solid;
+}
+
+.button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.title{
+    margin-top: 30px;
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+
+.comic img:hover{
+    transform: rotate(-2deg);
+}
